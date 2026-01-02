@@ -24,8 +24,8 @@ col-gpios
     , <&shifter 10 GPIO_ACTIVE_HIGH>
     , <&shifter 9 GPIO_ACTIVE_HIGH>
     , <&shifter 8 GPIO_ACTIVE_HIGH>
-    , <&shifter 24 GPIO_ACTIVE_HIGH>
     , <&shifter 23 GPIO_ACTIVE_HIGH>
+    , <&shifter 22 GPIO_ACTIVE_HIGH>
     ;
 
         row-gpios
