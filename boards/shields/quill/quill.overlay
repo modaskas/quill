@@ -39,6 +39,24 @@ col-gpios
     };
 };
 
+right_encoder: encoder_right {
+    compatible = "alps,ec11";
+    a-gpios = <P1_04 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <P1_06 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    steps = <80>;
+    status = "disabled";
+};
+
+sensors: sensors {
+    compatible = "zmk,keymap-sensors";
+    sensors = <&right_encoder>;
+    triggers-per-rotation = <20>;
+};
+
+&right_encoder {
+    status = "okay";
+};
+
 / {
     matrix_transform0: matrix_transform0 {
         compatible = "zmk,matrix-transform";
