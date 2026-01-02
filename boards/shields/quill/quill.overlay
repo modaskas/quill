@@ -20,12 +20,12 @@ col-gpios
     , <&shifter 14 GPIO_ACTIVE_HIGH>
     , <&shifter 13 GPIO_ACTIVE_HIGH>
     , <&shifter 12 GPIO_ACTIVE_HIGH>
-    , <&shifter 22 GPIO_ACTIVE_HIGH>
     , <&shifter 11 GPIO_ACTIVE_HIGH>
-    , <&shifter 23 GPIO_ACTIVE_HIGH>
     , <&shifter 10 GPIO_ACTIVE_HIGH>
     , <&shifter 9 GPIO_ACTIVE_HIGH>
-    , <&shifter 8 GPIO_ACTIVE_HIGH>
+    , <&shifter 10 GPIO_ACTIVE_HIGH>
+    , <&shifter 17 GPIO_ACTIVE_HIGH>
+    , <&shifter 16 GPIO_ACTIVE_HIGH>
     ;
 
         row-gpios
