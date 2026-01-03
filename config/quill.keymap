@@ -15,6 +15,7 @@
 &kp LEFT_SHIFT                &kp Z         &kp X         &kp C         &kp V   &kp B         &kp N   &kp M   &kp COMMA  &kp PERIOD     &kp SLASH         &kp RIGHT_SHIFT    &kp UP                         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER
 &kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT                                      &kp SPACE                                &kp RIGHT_GUI  &kp O             &kp RCTRL          &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp KP_NUMBER_0  &kp KP_DOT
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
