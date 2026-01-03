@@ -54,10 +54,6 @@ sensors: sensors {
     triggers-per-rotation = <20>;
 };
 
-&right_encoder {
-    status = "okay";
-};
-
 / {
     matrix_transform0: matrix_transform0 {
         compatible = "zmk,matrix-transform";
