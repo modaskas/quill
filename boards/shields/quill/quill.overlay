@@ -54,7 +54,6 @@ sensors: sensors {
     triggers-per-rotation = <20>;
 };
 
-/ {
     matrix_transform0: matrix_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <18>;
